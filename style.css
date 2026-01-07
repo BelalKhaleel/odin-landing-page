@@ -32,7 +32,6 @@ h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
-  padding: 50px;
 }
 
 header a {
@@ -77,12 +76,13 @@ header a {
 .hero-section .content {
   padding-top: 36px;
   padding-bottom: 72px;
-  gap: 100px;
+  gap: 230px;
 }
 
 .left-section {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 16px;
 }
 
@@ -106,13 +106,17 @@ header a {
 
 .cards-section {
   background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 36px;
+  padding-bottom: 116px;
 }
 
 .cards {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 120px;
 }
 
 .card {
@@ -150,10 +154,10 @@ header a {
   font-size: 32px;
   font-weight: bold;
   align-self: flex-end;
-  margin-right: 88px;
 }
 
 .call-to-action {
+  width: 1440px;
   margin: 96px auto;
   height: 130px;
   display: flex;
@@ -163,7 +167,7 @@ header a {
   border-radius: 8px;
 }
 
-.call-to-action span a {
+.call-to-action a {
   color: white;
   padding: 3px 20px;
   border: #f9faf8 solid 1px;
@@ -173,14 +177,8 @@ header a {
 
 .left-section button,
 .call-to-action,
-.call-to-action span a {
+.call-to-action a {
   background-color: #3882f6;
-}
-
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 footer {
